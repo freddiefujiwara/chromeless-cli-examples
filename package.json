@@ -1,0 +1,28 @@
+{
+  "name": "chromeless-cli-examples",
+  "version": "1.0.0",
+  "description": "Example script for npm chromeless-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddiefujiwara/chromeless-cli-examples.git"
+  },
+  "keywords": [
+    "chromeless",
+    "chrome",
+    "headless"
+  ],
+  "author": "Fumikazu Fujiwara <npm@ze.gs> (http://freddiefujiwara.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddiefujiwara/chromeless-cli-examples/issues"
+  },
+  "homepage": "https://github.com/freddiefujiwara/chromeless-cli-examples#readme",
+  "dependencies": {
+    "chromeless-cli": "0.0.4",
+    "commander": "^2.11.0"
+  }
+}
