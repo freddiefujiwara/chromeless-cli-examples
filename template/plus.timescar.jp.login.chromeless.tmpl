@@ -1,0 +1,9 @@
+goto https://plus.timescar.jp/view/logout.jsp
+wait form#logoutForm
+goto https://api.timesclub.jp/view/pc/tpLogin.jsp?siteKbn=TP&doa=ON&redirectPath=https%3A%2F%2Fplus.timescar.jp%2Fview%2Fmember%2Fmypage.jsp
+type <$1>  input#cardNo1
+type <$2> input#cardNo2
+type <$3> input#tpPassword
+click input#doLoginForTp
+wait span#existMessages
+screenshot
